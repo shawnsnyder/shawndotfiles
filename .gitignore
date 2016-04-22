@@ -1,0 +1,8 @@
+# Ignore everything
+/*
+!.vim/
+!.gitmodules
+!.gitignore_global
+!.gitignore
+!ascripts/
+
