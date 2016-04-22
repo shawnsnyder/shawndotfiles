@@ -1,5 +1,4 @@
-
-while read in; git submodule add "$in";done < bundleitemsa
 for d in */ ; do (cd "$d" && git remote show origin | grep -m  1 'Fetch.*'); done 
+while read in; git submodule add "$in";done < bundleitemsa
 
 
