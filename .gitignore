@@ -5,4 +5,5 @@
 !.gitignore_global
 !.gitignore
 !ascripts/
+!.vimrc
 
