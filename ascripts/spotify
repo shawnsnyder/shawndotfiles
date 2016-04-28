@@ -1,0 +1,14 @@
+#!/usr/bin/env osascript
+
+set a to "Spotify"
+set bid to id of application a
+tell application a
+reopen -- open a new default window if there are no windows
+activate -- make frontmost
+end tell
+
+tell application "System Events" to tell process "Spotify"
+try
+set isfullscreen to value of attribute "AXFullScreen" of window 1
+end try
+end tell

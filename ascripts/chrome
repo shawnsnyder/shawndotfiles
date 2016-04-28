@@ -1,0 +1,11 @@
+#!/usr/bin/env osascript
+
+tell application "Google Chrome"
+activate
+try
+reload active tab of window 1
+end try
+try
+reload active tab of window 2
+end try
+end tell

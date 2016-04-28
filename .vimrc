@@ -11,6 +11,9 @@ set shiftwidth=4
 set autoindent
 set expandtab
 
+" tabline
+set tabline=%!tabber#TabLine()
+
 nnoremap <F3> :CtrlP<CR>
 set noswapfile
 
@@ -35,4 +38,3 @@ set background=light
 let g:solarized_termcolors=256
 colorscheme solarized
 
-set tabline=%!tabber#TabLine()
