@@ -2,14 +2,19 @@ execute pathogen#infect()
 syntax on
 syntax enable
 
+filetype on
 filetype plugin indent on
 set smartindent
 set laststatus=2
 set nu
 set tabstop=4
 set shiftwidth=4
+set wrapmargin=0
 set autoindent
 set expandtab
+set visualbell
+set clipboard=unnamed
+set mouse=a
 
 " tabline
 set tabline=%!tabber#TabLine()
@@ -20,6 +25,7 @@ set noswapfile
 map <F2> :mksession! ~/vim_session <cr> " Quick write session with F2
 map <F3> :source ~/vim_session <cr>     " And load session with F3
 com! FormatJSON %!python -m json.tool
+
 nnoremap <C-m> :CtrlP<CR>
 nnoremap <C-n> :NERDTreeToggle<CR>
 
