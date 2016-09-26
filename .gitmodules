@@ -28,3 +28,15 @@
 [submodule ".vim/bundle/vim-tabber"]
 	path = .vim/bundle/vim-tabber
 	url = https://github.com/fweep/vim-tabber.git
+[submodule ".vim/ctrlp.vim"]
+	path = .vim/ctrlp.vim
+	url = https://github.com/kien/ctrlp.vim
+[submodule ".vim/emmet-vim"]
+	path = .vim/emmet-vim
+	url = https://github.com/mattn/emmet-vim.git
+[submodule ".vim/bundle/neocomplete.vim"]
+	path = .vim/bundle/neocomplete.vim
+	url = https://github.com/Shougo/neocomplete.vim.git
+[submodule ".vim/bundle/vim-jsx"]
+	path = .vim/bundle/vim-jsx
+	url = https://github.com/mxw/vim-jsx.git

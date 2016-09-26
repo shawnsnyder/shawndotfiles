@@ -8,3 +8,5 @@ https://github.com/altercation/vim-colors-solarized
 https://github.com/terryma/vim-multiple-cursors
 git://github.com/wavded/vim-stylus.git
 https://github.com/fweep/vim-tabber.git
+https://github.com/Shougo/neocomplete.vim.git
+https://github.com/mxw/vim-jsx.git
